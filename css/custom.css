@@ -1,0 +1,28 @@
+.btn-primary {
+    background: #59f79b;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 18;
+}
+
+.btn-primary:hover {
+    background: #53fd9a;
+    border: 0;
+}
+
+.herobwa h1{
+    font-weight: 500;
+}
+
+.herobwa h3 {
+    color: cadetblue;
+}
+.text-center hover {
+    border-color: rgb(13, 236, 106);
+    border: 1px;
+}
+
+
+.navbar-nav {
+    margin-left: 340px;
+}
