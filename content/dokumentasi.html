@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dokumentasi</title>
     <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/custom.css" />
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
@@ -15,11 +16,12 @@
         <a class="navbar-brand" href="../index.html">
           <img src="../images/logo2.png" width="130px" height="120px">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="../content/menu unggulan.html">Menu Unggulan<span class="sr-only">(current)</span></a>
             </li>
@@ -36,7 +38,7 @@
 
   <section>
     <div class="row ml-2 mb-5 mt-4">
-      <div class="col">
+      <div class="col" data-aos="fade-down" data-aos-offset="250">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="../images/dok1.jpg" alt="Card image cap">
           <div class="card-body">
@@ -44,7 +46,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col" data-aos="fade-down" data-aos-offset="250">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="../images/dok2.jpg" alt="Card image cap">
           <div class="card-body">
@@ -52,7 +54,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col" data-aos="fade-down" data-aos-offset="250">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="../images/dok3.jpg" alt="Card image cap">
           <div class="card-body">
@@ -63,7 +65,7 @@
     </div>
     
     <div class="row ml-2 mb-4 mt-4">
-      <div class="col">
+      <div class="col" data-aos="fade-down" data-aos-offset="250" data-aos-delay="100">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="../images/dok7.jpg" alt="Card image cap">
           <div class="card-body">
@@ -71,7 +73,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col"  data-aos="fade-down" data-aos-offset="250" data-aos-delay="100">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="../images/dok5.jpg" alt="Card image cap">
           <div class="card-body">
@@ -79,7 +81,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col" data-aos="fade-down" data-aos-offset="250" data-aos-delay="100">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="../images/dok6.jpg" alt="Card image cap">
           <div class="card-body">
@@ -124,6 +126,10 @@
     </div>
   </section>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
   <script type="text?javascript" src="../js/bootstrap.js"></script>
 
