@@ -46,6 +46,9 @@ body {
 
 /* Featurettes
 ------------------------- */
+.featurette h1, h2, p {
+  padding-left: 1rem;
+}
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
